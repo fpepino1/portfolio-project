@@ -1,0 +1,13 @@
+main .home-logo {
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+
+  margin-top: 180px;
+  margin-left: 50px;
+}
+
+main .home-info {
+  display: flex;
+  justify-content: end;
+  margin-right: 80px;
+}
