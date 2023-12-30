@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Farrah Pepino</title>
@@ -15,37 +15,71 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link  rel="stylesheet" href="styles/index.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PROJECTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">CONTACT</a>
-        </li>
-      </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#"
+            >FARRAH <br />
+            PEPINO.</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse nav justify-content-end"
+            id="navbarNav"
+          >
+            <li class="nav-item">
+              <a class="nav-link active main-theme" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-theme" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-theme" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-theme">CONTACT</a>
+            </li>
+          </div>
+        </div>
+      </nav>
     </nav>
-    <section id="main-container" class="main-container">
-        <main>
-      <div class="home-logo">
+    <main>
+      <div class="logo home-logo">
         FARRAH <br />
-        PEPINO
+        PEPINO.
       </div>
-      <div class="home-info">Frontend Developer, based in JC/NYC</div>
+      <div class="home-info logo">
+        FRONTEND DEVELOPER <br />
+        BASED IN JC/NYC
+      </div>
+
+      <button type="button" class="center index-button main-theme">
+        GET STARTED
+      </button>
     </main>
-    </section>
+
     <footer></footer>
   </body>
 </html>
