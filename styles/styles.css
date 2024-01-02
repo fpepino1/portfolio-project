@@ -15,11 +15,6 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-button {
-  border-radius: 12px;
-  padding: 10px;
-}
-
 nav {
   font-weight: lighter;
 }
@@ -27,8 +22,13 @@ nav {
 .index-button {
   border: none;
   background-color: transparent;
-  text-decoration: overline lightgray;
   font-weight: lighter;
+  text-decoration: overline;
+}
+
+.button-transparent {
+  border-style: none;
+  background-color: transparent;
 }
 
 .index-button:hover {
@@ -41,4 +41,49 @@ nav {
 }
 .lighter-text {
   font-weight: lighter;
+}
+
+.textbox {
+  margin-top: 80px;
+  border-radius: 24px;
+  padding: 7%;
+  background-color: hsla(0, 0%, 5%, 0.6);
+  color: white;
+}
+
+.red-text {
+  color: red;
+}
+
+.white-text {
+  color: white;
+}
+
+img {
+  max-width: 350px;
+  border-radius: 24px;
+}
+
+.pd-t {
+  padding-top: 37.5px;
+}
+
+.pd {
+  padding: 175px 175px;
+}
+
+.margin {
+  margin-bottom: 75px;
+}
+.home-logo {
+  font-size: 150px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.home-info {
+  display: flex;
+  justify-content: end;
+  margin-right: 65px;
+
+  font-size: 20px;
 }
