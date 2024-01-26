@@ -1,3 +1,5 @@
+
+
 .center {
   display: flex;
   justify-content: center;
@@ -86,4 +88,17 @@ img {
   margin-right: 65px;
 
   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .index .container {
+  align-items: center;
+  }
+
+  .home-logo{
+    font-size:75px;
+  }
+  .home-info{
+    font-size: 15px;
+  }
 }
