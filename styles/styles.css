@@ -100,4 +100,8 @@ img {
   .home-info {
     font-size: 12px;
   }
+
+  .pd {
+    padding: 75px 75px;
+  }
 }
