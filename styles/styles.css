@@ -10,6 +10,8 @@
 .logo {
   font-family: "Montserrat", sans-serif;
 }
+
+
 .main-theme {
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -94,7 +96,10 @@ img {
 
   font-size: 20px;
 }
-
+.center{
+  
+  align-items: center;
+}
 @media screen and (max-width: 800px) {
   .index .container {
     align-items: center;
@@ -112,8 +117,5 @@ img {
     padding: 75px 75px;
   }
 
-  .center{
-    margin: 0;
-    display: flex;
-  }
+  
 }
